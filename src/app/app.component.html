@@ -1,0 +1,8 @@
+<button (click)="loadByString('header')">Load Header</button>
+<button (click)="loadByString('body')">Load Body</button>
+<button (click)="loadByString('footer')">Load Footer</button>
+
+<h4>Loaded Component</h4>
+<ng-template appDynamicLoader [data]="selected"></ng-template>
+
+
